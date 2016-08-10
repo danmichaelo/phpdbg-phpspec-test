@@ -1,6 +1,3 @@
-suites:
-  test_suite:
-    namespace: Test\Test
-    psr4_prefix: Test\Test
 extensions:
   - PhpSpecCodeCoverage\CodeCoverageExtension
+
