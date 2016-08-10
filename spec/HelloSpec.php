@@ -1,10 +1,9 @@
 <?php
 
-namespace spec;
+namespace spec\Test\Test;
 
-use Hello;
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
+use Test\Test\Hello;
 
 class HelloSpec extends ObjectBehavior
 {
