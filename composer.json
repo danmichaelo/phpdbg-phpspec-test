@@ -1,0 +1,16 @@
+{
+    "name": "danmichael/phpdbg-phpspec-test",
+    "require": {
+        "phpspec/phpspec": "^3.0",
+        "henrikbjorn/phpspec-code-coverage": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Dan Michael O. Heggø",
+            "email": "danmichaelo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
