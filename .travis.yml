@@ -5,8 +5,8 @@ php:
   - nightly
 
 env:
-  - CMD=phpdbg -qrr vendor/bin/phpspec
-  - CMD=vendor/bin/phpspec
+  - CMD='phpdbg -qrr vendor/bin/phpspec'
+  - CMD='vendor/bin/phpspec'
 
 before_script:
  - composer install --no-interaction --optimize-autoloader
