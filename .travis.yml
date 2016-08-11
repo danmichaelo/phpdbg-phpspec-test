@@ -1,15 +1,13 @@
 language: php
 
 php:
+  - 5.5
+  - 5.6
   - 7.0
   - nightly
-
-env:
-  - CMD='phpdbg -qrr vendor/bin/phpspec'
-  - CMD='vendor/bin/phpspec'
 
 before_script:
  - composer install --no-interaction --optimize-autoloader
 
 script:
- - $CMD run --format=pretty --no-interaction --verbose
+ - vendor/bin/phpspec run --format=pretty --no-interaction --verbose
